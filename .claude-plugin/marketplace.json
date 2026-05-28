@@ -1,0 +1,26 @@
+{
+  "name": "cowork-bridge-marketplace",
+  "description": "Claude Code plugin marketplace hosting cowork-to-code-bridge.",
+  "owner": {
+    "name": "Abhi Gadikoppula"
+  },
+  "plugins": [
+    {
+      "name": "cowork-to-code-bridge",
+      "description": "Let Claude in your browser (Cowork) run things on your Mac: scripts, builds, git, etc. Safe by design — token-protected, no internet listener, only runs scripts you approve.",
+      "source": {
+        "source": "github",
+        "repo": "abhinaykrupa/cowork-to-code-bridge",
+        "ref": "main"
+      },
+      "author": {
+        "name": "Abhi Gadikoppula"
+      },
+      "homepage": "https://github.com/abhinaykrupa/cowork-to-code-bridge",
+      "repository": "https://github.com/abhinaykrupa/cowork-to-code-bridge",
+      "license": "MIT",
+      "keywords": ["cowork", "bridge", "shell", "automation", "macos"],
+      "category": "automation"
+    }
+  ]
+}
