@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "cowork-to-code-bridge",
-      "description": "Let Claude in your browser (Cowork) run things on your Mac: scripts, builds, git, etc. Safe by design — token-protected, no internet listener, only runs scripts you approve.",
+      "description": "Let Claude Cowork run things on your Mac: scripts, builds, git, etc. Safe by design — token-protected, no internet listener, only runs scripts you approve.",
       "source": {
         "source": "github",
         "repo": "abhinaykrupa/cowork-to-code-bridge",
