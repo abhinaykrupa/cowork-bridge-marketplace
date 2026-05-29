@@ -8,7 +8,13 @@ Currently one plugin:
 
 | Plugin | Description |
 |---|---|
-| [`cowork-to-code-bridge`](https://github.com/abhinaykrupa/cowork-to-code-bridge) | Let Claude in your browser (Cowork) run things on your Mac — scripts, builds, git, etc. Safe by design: token-protected, no internet listener, only runs scripts you approve. |
+| [`cowork-to-code-bridge`](https://github.com/abhinaykrupa/cowork-to-code-bridge) | Let Claude Cowork run things on your Mac — scripts, builds, git, etc. Safe by design: token-protected, no internet listener, only runs scripts you approve. |
+
+## Why this matters
+
+Cowork can edit your files, but it can't reach your actual machine — it can't run your build, run your tests, or push to GitHub. This bridge fixes that, so a single Cowork chat can run a whole project end to end: build, run, test, and ship, all without leaving the conversation.
+
+See the [plugin README](https://github.com/abhinaykrupa/cowork-to-code-bridge#what-you-can-build-with-it) for what that looks like step by step.
 
 ## Install
 
